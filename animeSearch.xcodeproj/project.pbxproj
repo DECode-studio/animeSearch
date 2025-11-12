@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3934048946CA7030FAECDE1F /* Pods_animeSearch_animeSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE2E971ABEA77ED11B5B99 /* Pods_animeSearch_animeSearchUITests.framework */; };
+		A8BE5DF178F5AFDA86DEAD4A /* Pods_animeSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8975C530A2882D92C7B6EA6E /* Pods_animeSearchTests.framework */; };
+		F1EE22ADBA303391CD5B9BA2 /* Pods_animeSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D3EE017C5BE73C9730A29A /* Pods_animeSearch.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE9F49FA2EC42D9000274974 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040921639E036166FC51679A /* Pods-animeSearch-animeSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeSearch-animeSearchUITests.debug.xcconfig"; path = "Target Support Files/Pods-animeSearch-animeSearchUITests/Pods-animeSearch-animeSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		49EE2E971ABEA77ED11B5B99 /* Pods_animeSearch_animeSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animeSearch_animeSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8919B01C246039C9C58E92FD /* Pods-animeSearch-animeSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeSearch-animeSearchUITests.release.xcconfig"; path = "Target Support Files/Pods-animeSearch-animeSearchUITests/Pods-animeSearch-animeSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8975C530A2882D92C7B6EA6E /* Pods_animeSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animeSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27310C6FFCE088C75D9171C /* Pods-animeSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeSearch.debug.xcconfig"; path = "Target Support Files/Pods-animeSearch/Pods-animeSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		A7D3EE017C5BE73C9730A29A /* Pods_animeSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animeSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81E3E6BEC9B8C7847D58CF5 /* Pods-animeSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeSearchTests.debug.xcconfig"; path = "Target Support Files/Pods-animeSearchTests/Pods-animeSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8316FFE2B654B3F0BD3F4C8 /* Pods-animeSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeSearch.release.xcconfig"; path = "Target Support Files/Pods-animeSearch/Pods-animeSearch.release.xcconfig"; sourceTree = "<group>"; };
 		CE9F49E62EC42D8F00274974 /* animeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F49F92EC42D9000274974 /* animeSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animeSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9F4A032EC42D9000274974 /* animeSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animeSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5AF1A46EFDD36762566D45 /* Pods-animeSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeSearchTests.release.xcconfig"; path = "Target Support Files/Pods-animeSearchTests/Pods-animeSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EE22ADBA303391CD5B9BA2 /* Pods_animeSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8BE5DF178F5AFDA86DEAD4A /* Pods_animeSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3934048946CA7030FAECDE1F /* Pods_animeSearch_animeSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		380472696B4F9B2F00374488 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A27310C6FFCE088C75D9171C /* Pods-animeSearch.debug.xcconfig */,
+				B8316FFE2B654B3F0BD3F4C8 /* Pods-animeSearch.release.xcconfig */,
+				040921639E036166FC51679A /* Pods-animeSearch-animeSearchUITests.debug.xcconfig */,
+				8919B01C246039C9C58E92FD /* Pods-animeSearch-animeSearchUITests.release.xcconfig */,
+				B81E3E6BEC9B8C7847D58CF5 /* Pods-animeSearchTests.debug.xcconfig */,
+				FA5AF1A46EFDD36762566D45 /* Pods-animeSearchTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B34C115913D436D7A1546FB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7D3EE017C5BE73C9730A29A /* Pods_animeSearch.framework */,
+				49EE2E971ABEA77ED11B5B99 /* Pods_animeSearch_animeSearchUITests.framework */,
+				8975C530A2882D92C7B6EA6E /* Pods_animeSearchTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE9F49DD2EC42D8E00274974 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +120,8 @@
 				CE9F49FC2EC42D9000274974 /* animeSearchTests */,
 				CE9F4A062EC42D9000274974 /* animeSearchUITests */,
 				CE9F49E72EC42D8F00274974 /* Products */,
+				380472696B4F9B2F00374488 /* Pods */,
+				B34C115913D436D7A1546FB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9F4A0D2EC42D9000274974 /* Build configuration list for PBXNativeTarget "animeSearch" */;
 			buildPhases = (
+				3F2231A8D6498D972295743F /* [CP] Check Pods Manifest.lock */,
 				CE9F49E22EC42D8F00274974 /* Sources */,
 				CE9F49E32EC42D8F00274974 /* Frameworks */,
 				CE9F49E42EC42D8F00274974 /* Resources */,
+				F191FB2BA312598C16539103 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +156,6 @@
 				CE9F49E82EC42D8F00274974 /* animeSearch */,
 			);
 			name = animeSearch;
-			packageProductDependencies = (
-			);
 			productName = animeSearch;
 			productReference = CE9F49E62EC42D8F00274974 /* animeSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9F4A102EC42D9000274974 /* Build configuration list for PBXNativeTarget "animeSearchTests" */;
 			buildPhases = (
+				47F7BF3698508719C70EF81D /* [CP] Check Pods Manifest.lock */,
 				CE9F49F52EC42D9000274974 /* Sources */,
 				CE9F49F62EC42D9000274974 /* Frameworks */,
 				CE9F49F72EC42D9000274974 /* Resources */,
@@ -134,8 +178,6 @@
 				CE9F49FC2EC42D9000274974 /* animeSearchTests */,
 			);
 			name = animeSearchTests;
-			packageProductDependencies = (
-			);
 			productName = animeSearchTests;
 			productReference = CE9F49F92EC42D9000274974 /* animeSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE9F4A132EC42D9000274974 /* Build configuration list for PBXNativeTarget "animeSearchUITests" */;
 			buildPhases = (
+				28221AF9C2E0D13885059B14 /* [CP] Check Pods Manifest.lock */,
 				CE9F49FF2EC42D9000274974 /* Sources */,
 				CE9F4A002EC42D9000274974 /* Frameworks */,
 				CE9F4A012EC42D9000274974 /* Resources */,
+				A17526E03F01A8F88C562428 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +201,6 @@
 				CE9F4A062EC42D9000274974 /* animeSearchUITests */,
 			);
 			name = animeSearchUITests;
-			packageProductDependencies = (
-			);
 			productName = animeSearchUITests;
 			productReference = CE9F4A032EC42D9000274974 /* animeSearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,6 +237,9 @@
 			);
 			mainGroup = CE9F49DD2EC42D8E00274974;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CE39DD632EC44E9C0093BFBB /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CE9F49E72EC42D8F00274974 /* Products */;
 			projectDirPath = "";
@@ -230,6 +275,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28221AF9C2E0D13885059B14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animeSearch-animeSearchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2231A8D6498D972295743F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animeSearch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47F7BF3698508719C70EF81D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animeSearchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A17526E03F01A8F88C562428 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-animeSearch-animeSearchUITests/Pods-animeSearch-animeSearchUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-animeSearch-animeSearchUITests/Pods-animeSearch-animeSearchUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-animeSearch-animeSearchUITests/Pods-animeSearch-animeSearchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F191FB2BA312598C16539103 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-animeSearch/Pods-animeSearch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-animeSearch/Pods-animeSearch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-animeSearch/Pods-animeSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE9F49E22EC42D8F00274974 /* Sources */ = {
@@ -385,6 +533,7 @@
 		};
 		CE9F4A0E2EC42D9000274974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27310C6FFCE088C75D9171C /* Pods-animeSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,8 +556,8 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = id.wahid.animeSearch;
@@ -424,6 +573,7 @@
 		};
 		CE9F4A0F2EC42D9000274974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8316FFE2B654B3F0BD3F4C8 /* Pods-animeSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,8 +596,8 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = id.wahid.animeSearch;
@@ -463,6 +613,7 @@
 		};
 		CE9F4A112EC42D9000274974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81E3E6BEC9B8C7847D58CF5 /* Pods-animeSearchTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +637,7 @@
 		};
 		CE9F4A122EC42D9000274974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5AF1A46EFDD36762566D45 /* Pods-animeSearchTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +661,7 @@
 		};
 		CE9F4A142EC42D9000274974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040921639E036166FC51679A /* Pods-animeSearch-animeSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -531,6 +684,7 @@
 		};
 		CE9F4A152EC42D9000274974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8919B01C246039C9C58E92FD /* Pods-animeSearch-animeSearchUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -591,6 +745,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE39DD632EC44E9C0093BFBB /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = CE9F49DE2EC42D8E00274974 /* Project object */;
 }
