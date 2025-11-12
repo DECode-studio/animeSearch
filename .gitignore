@@ -1,0 +1,74 @@
+# ✅ macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ✅ Derived data & Xcode caches
+DerivedData/
+build/
+xcuserdata/
+
+# ✅ Xcode user settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ✅ Swift Package Manager (SPM)
+/.build
+/Packages
+Package.resolved
+
+# ✅ SwiftPM Xcode integration
+.swiftpm/xcode/package.xcworkspace/xcuserdata
+.swiftpm/xcode/package.xcworkspace/xcshareddata
+
+# ✅ CocoaPods (jika pakai)
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# ✅ Carthage (jika pakai)
+Carthage/Build/
+
+# ✅ Fastlane artifacts
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/session
+
+# ✅ SPM playground artifacts
+timeline.xctimeline
+playground.xcworkspace
+
+# ✅ Simulator data
+*.moved-aside
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ✅ Swift Package Manager
+.xcodeproj/project.xcworkspace
+.xcodeproj/xcuserdata/
+
+# ✅ Keychain / sensitive files
+*.key
+*.pem
+*.cer
+*.p12
+
+# ✅ Logs
+*.log
+
+# ✅ Environment
+.env
+.env.*
+
+# ✅ SwiftGen / Sourcery Generated files (opsional)
+Generated/
+
